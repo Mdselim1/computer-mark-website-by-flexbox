@@ -1,0 +1,251 @@
+
+/* google ------ font ------- link  */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.area{
+    max-width: 1420px;
+    margin: auto;
+	padding: 0rem 1rem;
+}
+
+
+/* header --------- section ------------ css ---------- writing ------ start ----  */
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+    padding: 2rem 0;
+}
+.header_logo a {
+	color: crimson;
+	font-size: 2rem;
+	font-weight: 600;
+}
+.header_menu ul {
+	display: flex;
+	list-style: none;
+    flex-direction: row;
+}
+.header_menu ul li {
+	display: inline-block;
+	margin-left: 1.8rem;
+}
+
+.header_menu ul li a {
+	display: block;
+	color: crimson;
+	font-size: 1.1rem;
+	font-weight: 500;
+    transition: .3s;
+}
+.header_menu ul li a:hover{
+    text-decoration: underline;
+}
+.banner img {
+	width: 100%;
+	height: auto;
+	border: 1px solid #eee;
+	padding: 0.5rem;
+}
+
+.welcome{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2rem 0;
+}
+
+.welocme_content_under{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.welcome_menu{
+	flex-basis: 10%;
+}
+
+.welcome_content{
+	flex-basis: 85%;
+}
+.welcome_menu ul li{
+	list-style: none;
+}
+
+.welcome_menu ul li a{
+	font-size: 1.2rem;
+	color: #333;
+	font-weight: 500;
+	display: block;
+	margin-top: 1.2rem;
+}
+
+.welcome_menu h4,.welcome_content h4{
+	font-size: 1.5rem;
+	color: rgb(100, 96, 96);
+	font-weight: 700;
+	margin-bottom: 1rem;
+
+}
+
+.welcome_content p{
+	font-size: 1.1rem;
+	line-height: 1.4;
+	font-weight: 400;
+	margin-bottom: 1.2rem;
+}
+
+.welcome_one{
+	flex-basis: 47%;
+}
+/* header --------- section ------------ css ---------- writing ------ end ----  */
+
+/* service --------- section ------ start -- */
+
+.service_section{
+	padding: 3rem 0;
+	background: #F7F5F6;
+}
+.title{
+	text-align: center;
+	padding-bottom: 1.5rem;
+}
+.title h3{
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #333;
+}
+
+.servese_item_main{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.service_box{
+	width: 30%;
+}
+.service_box h3{
+	font-size: 2rem;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 1rem;
+}
+
+.service_box p{
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: #222;
+	line-height: 1.5;
+	margin: 1rem 0rem;
+}
+.service_box img{
+	width: 100%;
+	border: 1px solid #999;
+	padding: .2rem;
+}
+.cmn_btn{
+	background: #FF6147;
+	padding: 0.8rem 1.2rem;
+	color: #eee;
+	display: inline-block;
+}
+/* service --------- section ------ end -- */
+
+/* About --------- section ------ Start -- */
+
+
+
+.about_section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 2rem 0;
+}
+
+.about_left{
+	flex-basis: 75%
+}
+.about_left h3{
+	font-size: 2rem;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 1rem;
+}
+
+.about_left p{
+	font-size: 1.1rem;
+	font-weight: 400;
+	color: #222;
+	line-height: 1.5;
+	margin: 1rem 0rem;
+}
+.about_right{
+	flex-basis: 18%;
+}
+.about_right h3{
+	font-size: 2rem;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 1rem;
+}
+
+.about_right ul{
+	
+}
+.about_right ul li{
+
+	list-style: none;
+}
+.about_right ul li a{
+	font-size: 1.2rem;
+	color: #333;
+	font-weight: 500;
+	display: block;
+	margin-top: 1rem;
+}
+
+.footer{
+	padding: 1.2rem 0rem;
+	background: #222;
+	color: #fff;
+	text-align: center;
+
+}
+
+.features_main{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+}
+.features_box:nth-child(1) {
+	flex-basis: 25%;
+}
+.features_box:nth-child(2) {
+	flex-basis: 35%;
+}
+.features_box:nth-child(3) {
+	flex-basis: 30%;
+}
+.footer p{
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+/* About --------- section ------ end -- */
